@@ -1,0 +1,39 @@
+.userCardList {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  display: flex;
+  padding: 10px;
+  height: 150px;
+}
+.singleImg {
+  border-radius: 10px;
+}
+.userInformation {
+  margin: 0px 0px 0px 20px;
+}
+.userInformation p {
+  margin-top: 10px;
+}
+.valueName {
+  font-weight: bold;
+}
+@media only screen and (min-width: 60px) and (max-width: 420px) {
+  .userCardList {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red;  */
+    height: 280px;
+  }
+  .singleImg {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .userCardList {
+    display: flex;
+    height: 200px;
+  }
+  .singleImg {
+    text-align: center;
+  }
+}
