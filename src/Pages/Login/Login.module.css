@@ -1,0 +1,24 @@
+.Loginmodel {
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   
+  height: auto;
+  width: 30vw;
+  margin: auto;
+}
+
+
+  /* text-align: center; */
+  /* margin-top: 15px; */
+
+.formModel {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+ 
+}
+.formModel input {
+  height: 2rem;
+  margin-top: 15px;
+}
